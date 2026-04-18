@@ -3,8 +3,6 @@
 Python implementation of the two case studies presented in:
 
 > **Phase-Conditioned RUL Estimation and PBIT Fault Classification: A Reproducible Framework for Condition-Based Aviation Maintenance**
-> A. C. P. Mesquita, A. Giacotto, G. C. Rocha
-> *Aerospace Science and Technology* (under review)
 
 ---
 
@@ -44,8 +42,3 @@ MIT License.
 
 ## Authors
 
-- Antonio C. P. Mesquita — celio@ita.br (corresponding author)
-- Alessandro Giacotto — agiacott@ita.br
-- Guilherme C. Rocha
-
-Aerospace Logistics Engineering Laboratory, Instituto Tecnológico de Aeronáutica (ITA), Brazil.
