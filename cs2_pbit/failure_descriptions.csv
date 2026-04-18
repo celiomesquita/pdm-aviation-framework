@@ -1,0 +1,33 @@
+type,description,number_of_tests
+N01,Condição operacional normal #1,586
+N02,Condição operacional normal #2,67
+F01,Type #1 - amortecimento excessivo,161
+F02,Type #2 - acoplamento de corpo estranho,320
+F03,Type #3 - falha no conjunto de atuação,267
+F04,Type #4 - dano à superfície de atuação #1,39
+F05,Type #5 - dano à superfície de atuação #2,41
+F06,Type #6 - falha na transmissão do comando,9
+
+
+Being able to predict not just that a failure will occur, but the type of failure, is a significant step towards prescriptive maintenance. Each failure mode likely requires a different maintenance response.
+F01 (Excessive Damping): Could relate to issues in systems designed to absorb shock or vibration, potentially affecting stability, comfort, or component lifespan.
+F02 (Foreign Object Coupling/Entrapment): This is a critical safety concern. FOD (Foreign Object Debris) or other forms of unwanted coupling can lead to jams, blockages, or severe mechanical damage. This is a relatively common failure type in your dataset (320 instances).
+F03 (Actuator Assembly Failure): Actuators are vital for controlling flight surfaces, landing gear, and other critical functions. Predicting their failure is paramount for safety and operational reliability. This is also a well-represented failure class (267 instances).
+F04 & F05 (Damage to Actuation Surface #1 & #2): These point to physical damage on the surfaces involved in actuation. The distinction between type #1 and #2 might relate to the location, severity, or nature of the damage. These are less common.
+F06 (Command Transmission Failure): This is a highly critical failure, as it implies that control inputs are not being correctly transmitted to the relevant components. This could be due to mechanical linkage issues, electrical faults in a fly-by-wire system, or hydraulic problems. This is the rarest failure type.
+
+
+
+Q1
+Progress in Aerospace Sciences
+International Journal of Mechanical Sciences
+Engineering Failure Analysis
+
+Q2
+Journal of Space Safety Engineering
+Aeronautical Journal
+Aircraft Engineering and Aerospace Technology
+QUALITY AND RELIABILITY ENGINEERING INTERNATIONAL
+PROCEEDINGS OF THE INSTITUTION OF MECHANICAL ENGINEERS. PART B
+International Journal of Aeronautical and Space Sciences
+Journal of the Brazilian Society of Mechanical Sciences and Engineering

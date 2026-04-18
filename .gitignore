@@ -1,0 +1,26 @@
+# Large binary data
+*.parquet
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+.venv/
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.pkl
+*.joblib
+*.model
